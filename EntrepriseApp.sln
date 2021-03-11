@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D6F857CA-26E3-44C4-BE0A-560257960D18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "building blocks", "building blocks", "{B58F6342-8F36-42AC-985E-B30CC124E692}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{27346A6C-7142-4060-A9B8-EF43B756B857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntApp.Api.Indenty", "src\services\EntApp.Api.Indenty\EntApp.Api.Indenty.csproj", "{77BA40CD-CFCE-4034-ACAB-173117EF0081}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77BA40CD-CFCE-4034-ACAB-173117EF0081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BA40CD-CFCE-4034-ACAB-173117EF0081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BA40CD-CFCE-4034-ACAB-173117EF0081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BA40CD-CFCE-4034-ACAB-173117EF0081}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B58F6342-8F36-42AC-985E-B30CC124E692} = {D6F857CA-26E3-44C4-BE0A-560257960D18}
+		{27346A6C-7142-4060-A9B8-EF43B756B857} = {D6F857CA-26E3-44C4-BE0A-560257960D18}
+		{77BA40CD-CFCE-4034-ACAB-173117EF0081} = {27346A6C-7142-4060-A9B8-EF43B756B857}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42F344F4-CF5B-4350-97C5-98AE414CBB19}
+	EndGlobalSection
+EndGlobal
